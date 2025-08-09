@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: Prueba 1 de blog
 description: Hola esta es una prueba
 publishDate: 2025-08-09T18:05:21.208Z

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: Hola
 description: jkasdjkashdhak
 publishDate: 2025-08-09T16:57:54.824Z
