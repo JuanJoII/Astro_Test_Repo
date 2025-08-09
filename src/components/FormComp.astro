@@ -1,0 +1,66 @@
+---
+---
+
+<div class="w-full max-w-md bg-[#212121] p-8 rounded-2xl border-2 border-transparent bg-clip-padding bg-gradient-to-br from-transparent via-[#212121] to-[#212121] [border-image:linear-gradient(145deg,transparent_35%,#e81cff,#40c9ff)_1] my-14">
+  <form class="flex flex-col gap-5" method="POST" data-netlify="true">
+    <div class="flex flex-col gap-1">
+      <label for="nombre" class="text-xs font-semibold text-gray-400">Nombre</label>
+      <input 
+        type="text" 
+        id="nombre" 
+        name="nombre" 
+        placeholder="Tu nombre"
+        required
+        class="w-full px-4 py-3 rounded-lg bg-transparent border border-gray-700 text-white placeholder-white/50 focus:outline-none focus:border-[#e81cff]"
+      />
+    </div>
+
+    <div class="flex flex-col gap-1">
+      <label for="correo" class="text-xs font-semibold text-gray-400">Correo</label>
+      <input 
+        type="email" 
+        id="correo" 
+        name="correo" 
+        placeholder="tunombre@email.com"
+        required
+        class="w-full px-4 py-3 rounded-lg bg-transparent border border-gray-700 text-white placeholder-white/50 focus:outline-none focus:border-[#e81cff]"
+      />
+    </div>
+
+    <!-- Tema -->
+    <div class="flex flex-col gap-1">
+      <label for="tema" class="text-xs font-semibold text-gray-400">Tema</label>
+      <input 
+        type="text" 
+        id="tema" 
+        name="tema" 
+        placeholder="Asunto del mensaje"
+        required
+        class="w-full px-4 py-3 rounded-lg bg-transparent border border-gray-700 text-white placeholder-white/50 focus:outline-none focus:border-[#e81cff]"
+      />
+    </div>
+
+    <!-- Mensaje -->
+    <div class="flex flex-col gap-1">
+      <label for="mensaje" class="text-xs font-semibold text-gray-400">Mensaje</label>
+      <textarea 
+        id="mensaje" 
+        name="mensaje" 
+        rows="4" 
+        placeholder="Escribe tu mensaje aquí..."
+        required
+        class="w-full px-4 py-3 rounded-lg bg-transparent border border-gray-700 text-white placeholder-white/50 resize-none focus:outline-none focus:border-[#e81cff]"
+      ></textarea>
+    </div>
+
+    <div data-netlify-recaptcha="true"></div>
+
+    <!-- Botón -->
+    <button 
+      type="submit"
+      class="w-2/5 px-4 py-3 bg-[#313131] border border-gray-700 rounded-md font-semibold text-gray-400 hover:bg-white hover:text-black hover:border-white transition-all active:scale-95"
+    >
+      Enviar
+    </button>
+  </form>
+</div>
